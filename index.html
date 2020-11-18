@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Akademiker Pension</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/browser_tab_icon.png" alt="Browser icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="akademiker_pension">
+        <a href="">About AkademikerPension</a>
+    </div>
+
+    <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo for the website"></a>
+    <div class="menubar">
+        <div class="menu_icons">
+            <ul class="icons">
+                <li><a href=""><img class="search" src="img/search.png" alt="Search icon"></a></li>
+                <li><a href=""><img class="contact" src="img/contact.png" alt="Contact icon menu"></a></li>
+                <li><a href=""><img class="lock" src="img/lock.png" alt="Lock/unlock icon menu"></a></li>
+            </ul>
+        </div>
+        <div class="nav">
+            <label class="menu_label" for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <div class="menu">
+                <a href="#">Your Pension Scheme</a>
+                <a href="#">Investments</a>
+                <a href="#">Membership Benefits</a>
+                <a href="#">Become a member</a>
+                <a href="#"><span>For employers</span></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="header_cover">
+        <img class="background" src="img/header-photo.png" alt="Background header">
+        <header>
+            <h1 class="title">Your Life - Your Pension</h1>
+            <p class="description">On this page you can find resources and tips on adjusting your pension scheme
+                according with the changes in your life as there are several benefits to doing so.</p>
+        </header>
+    </div>
+
+    <div id="situation">
+        <h1>Your Situation</h1>
+        <p>Everyone has their own plans and dreams in life. We help you adjust to your pension to them so that you can
+            enjoy financial stability for yourself and those you love. Select situations that apply to your life below
+            to get tips and resources.</p>
+        <div id="list_situations">
+            <div id="retirement">
+                <label class="checkbox_container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <h2>I am approaching retirement</h2>
+                <img src="img/retire.png" alt="retirement icon">
+            </div>
+            <div id="married">
+                <label class="checkbox_container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <h2>I am getting married</h2>
+                <img src="img/married.png" alt="married icon">
+            </div>
+            <div id="job">
+                <label class="checkbox_container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <h2>I am leaving or changing my job</h2>
+                <img src="img/job.png" alt="job icon">
+            </div>
+            <div id="divorce">
+                <label class="checkbox_container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <h2>I am getting divorced</h2>
+                <img src="img/divorced.png" alt="divorced icon">
+            </div>
+            <div id="new">
+                <label class="checkbox_container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <h2>I am new to AkademikerPension</h2>
+                <img src="img/new.png" alt="new icon">
+            </div>
+
+            <div id="health">
+                <label class="checkbox_container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <h2>I have health issues</h2>
+                <img src="img/health.png" alt="health icon">
+            </div>
+            <div id="expecting">
+                <label class="checkbox_container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <h2>I have children or am expecting</h2>
+                <img src="img/expecting.png" alt="expecting icon">
+            </div>
+            <div id="home">
+                <label class="checkbox_container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <h2>I am buying a home</h2>
+                <img src="img/home.png" alt="home icon">
+            </div>
+            <div id="student">
+                <label class="checkbox_container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <h2>I am a student</h2>
+                <img src="img/student.png" alt="student icon">
+            </div>
+        </div>
+        <div class="btn_container">
+            <button>Get and overview</button>
+        </div>
+    </div>
+
+    <main>
+        <div id="information">
+            <div id="info_left">
+                <ul>
+                    <li id="situation_1_tab" data-situation_list="0">I am approaching retirement</li>
+                    <li id="situation_2_tab" data-situation_list="1">I am getting married</li>
+                    <li id="situation_3_tab" data-situation_list="2">I am leaving or changing my job</li>
+                    <li id="situation_4_tab" data-situation_list="3">I am getting divorced</li>
+                    <li id="situation_5_tab" data-situation_list="4">I am new to Akademiker Pension</li>
+                    <li id="situation_6_tab" data-situation_list="5">I have health issues</li>
+                    <li id="situation_7_tab" data-situation_list="6">I have children or am expecting</li>
+                    <li id="situation_8_tab" data-situation_list="7">I am buying a home</li>
+                    <li id="situation_9_tab" data-situation_list="8">I am a student</li>
+                </ul>
+            </div>
+            <div id="info_right"> </div>
+
+            <template id="template">
+                <img class="image" src="">
+                <h2>Title</h2>
+                <h3>Short Description</h3>
+                <p>Long Description</p>
+                <h4>Need help?</h4>
+                <div class="help">
+                    <div class="call_us">
+                        <h4>Call Us</h4>
+                        <a href>Phone</a>
+                    </div>
+                    <h5>or</h5>
+                    <div class="email_us">
+                        <h4>E-Mail Us</h4>
+                        <a href="mailto:medlem@akademikerpension.dk">Email</a>
+                    </div>
+                </div>
+                <button>Learn More</button>
+            </template>
+        </div>
+    </main>
+
+    <div id="top_picks">
+        <h1>Top Picks for you</h1>
+        <div id="columns_top_picks">
+            <div id="pick_1">
+                <img src="img/pick_2_img.png" alt="image for box 1">
+                <h2>MP Pension excludes even more offensive companies</h2>
+                <h3>With the latest divestment, MP has excluded oil shares for almost 900 million kroner</h3>
+                <button>Read more</button>
+            </div>
+            <div id="pick_2">
+                <img src="img/pick_1_img.png" alt="image for box 2">
+                <h2>The return is aimed at violent dives</h2>
+                <h3>Over half of what has been lost, has been recovered since the return in mid-March was down to minus
+                    13.3 percent</h3>
+                <button>Read more</button>
+            </div>
+            <div id="pick_3">
+                <div class="square_1">
+                    <h5>6. JANUARY 2020</h5>
+                    <h4>Green city cars in Copenhagen</h4>
+                    <i class="arrow right"></i>
+                </div>
+                <div class="square_2">
+                    <h5>6. JANUARY 2020</h5>
+                    <h4>Wind farm in Anholt</h4>
+                    <i class="arrow right"></i>
+                </div>
+                <div class="square_3">
+                    <h5>6. JANUARY 2020</h5>
+                    <h4>Biogas plant in Hull</h4>
+                    <i class="arrow right"></i>
+                </div>
+                <div class="square_4">
+                    <h5>6. JANUARY 2020</h5>
+                    <h4>Pensions in Denmark</h4>
+                    <i class="arrow right"></i>
+                </div>
+                <button>See all news</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div id="intro_footer">
+            <div id="feedback">
+                <p>What's your feedback?</p>
+                <a class="thumbs_up" href="">
+                    <img src="svg/like.svg" alt="Like for feedback"></a>
+                <a class="thumbs_down" href="">
+                    <img src="svg/like.svg" alt="Dislike for feedback"></a>
+            </div>
+
+            <div id="box">
+                <h4>Call Us</h4>
+                <h3>39 15 01 02</h3>
+                <div id="inside_box">
+                    <div class="schedule">
+                        <p>Monday to Wednesday</p>
+                        <line></line>
+                        <h5>9:00 to 16:00</h5>
+                    </div>
+                    <div class="schedule">
+                        <p>Thursday</p>
+                        <line></line>
+                        <h5>9:00 to 18:00</h5>
+                    </div>
+                    <div class="schedule">
+                        <p>Friday</p>
+                        <line></line>
+                        <h5>9:00 to 15:00</h5>
+                    </div>
+                </div>
+                <div class="btn_footer">
+                    <button class="btn button_footer">Write to us</button>
+                    <button class="btn button_footer">Book a meeting</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="address">
+            <p><b>AkademikerPension</b></p>
+            <p>Smakkedalen 8, 2820 Gentofte</p>
+            <p>CVR-nr.: 20766816</p>
+        </div>
+
+        <div id="container">
+            <div class="column">
+                <a href="">Rules and paragraphs</a>
+                <a href="">Money laundering prevention</a>
+                <a href="">Cost meter</a>
+            </div>
+
+            <div class="column">
+                <a href="">Good practice and means of redress</a>
+                <a href="">Financial Supervisory Authority's injunction</a>
+                <a href="">Financial Supervisory Authority's prosecutions</a>
+            </div>
+
+            <div class="column">
+                <a href="">Danish Financial Supervisory Authority's statements</a>
+                <a href="">Private policy</a>
+                <a href="">Cookies</a>
+            </div>
+        </div>
+
+        <div id="social_media_icons">
+            <a href="https://www.facebook.com/AkademikerPension/" target="_blank">
+                <img id="facebook" src="svg/facebook.svg" alt="facebook icon">
+            </a>
+            <a href="https://www.linkedin.com/company/mp-pension/" target="_blank">
+                <img id="linkedin" src="svg/linkedin.svg" alt="linkedin icon">
+            </a>
+            <a href="https://vimeo.com/396902211" target="_blank">
+                <img id="vimeo" src="svg/vimeo.svg" alt="vimeo icon">
+            </a>
+
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
